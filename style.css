@@ -1,0 +1,151 @@
+ body{
+     overflow-x: hidden;
+ }
+ .detail{
+     margin: 0.5vw 0 0.5vw 0;
+     width: 100%;
+     padding: 0.5vw 0 0.5vw 0.5vw;
+ }
+ .submit{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    background-color: blue;
+   
+    }
+ input[type=text],.submit,input[type=email]{
+     border: 0.05vw solid grey;
+     border-radius: 0.25vw;
+     color: rgb(85, 82, 82);
+     font-weight: 600;
+ }
+ .first-box{
+     background-color: rgb(22, 22, 63);
+     color: white;
+     
+ }
+ .icon-container{
+   display: flex;
+ }
+ .image{
+     width: 100%;
+     object-fit: contain;
+ }
+ .second-box{
+     padding-left: 14vw;
+     padding-top: 2vw;
+     background-color: rgb(249,250,250);
+     padding-bottom: 2vw;
+ }
+ .number{
+     font-size: 1.5vw;
+     font-weight: 600;
+     
+ }
+ .heading2{
+   display: flex;
+   justify-content: center;
+   padding: 5vw 0 1vw 0;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2vw;
+ }
+ .underline{
+     background-color: rgb(255,207,0);
+     width: 4vw;
+     height: 0.5vw;
+ }
+ .mid-container{
+     padding-top: 2vw;
+     padding-bottom: 4vw;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25vw;
+ }
+ .image2{
+     border-radius: 0.5vw;
+ }
+ .heading3{
+     display: flex;
+     justify-content: center;
+     padding-top:2vw;
+ }
+ .Underline1{
+     border-top: 0.2vw solid black;
+     border-bottom: 0.2vw solid black
+ }
+ .paragraph{
+     padding-top: 5vw;
+     padding-bottom: 1vw;
+ }
+ .image-box {
+    position: relative;
+    padding-top: 4vw;
+    
+}
+ .image3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+   
+ }
+ .image4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15vw;
+    left: 10vw;
+    opacity: 1;
+   
+}
+.image-overlap{
+    object-fit: contain;
+}
+.break-class{
+   
+    margin-top: 35vw;
+    margin-left: 6vw;
+}
+.price-card{
+    color: white;
+    background-color: #181b69;
+    border-radius: 1vw;
+}
+.price{
+    position: relative;
+     display: flex;
+     background-color: #181b69;
+     justify-content: center;
+    }
+
+.card-button{
+    border: 0.1vw solid whitesmoke;
+    width: 100%;
+    margin-bottom: 2vw;
+    margin-top: 4vw;
+}
+
+ul{
+    color: white;
+    font-size: 1.8vw;
+    padding-top: 2vw;
+}
+.view-price{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 2vw 0 2vw 0;
+}
+.view-price a{
+    font-size: 2vw;
+    font-weight: 700;
+    color: black;
+    border: none;
+}
